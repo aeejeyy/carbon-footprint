@@ -459,7 +459,7 @@ export default function CarbonFootprintCalculator() {
               <h2 className="text-3xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-600">
                 Your Carbon Footprint Results
               </h2>
-              <p className="text-gray-600 mt-2">Here's how your lifestyle impacts the environment</p>
+              <p className="text-gray-600 mt-2">Here&apos;s how your lifestyle impacts the environment</p>
             </div>
             
             {results ? (
@@ -580,7 +580,7 @@ export default function CarbonFootprintCalculator() {
   return (
     <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <BackgroundPattern />
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-3xl mx-auto relative z-10">
         <div className="text-center mb-12 transform transition-all duration-300 hover:scale-105">
           <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg mb-4">
             <span className="text-4xl">🌱</span>
@@ -659,6 +659,6 @@ export default function CarbonFootprintCalculator() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
